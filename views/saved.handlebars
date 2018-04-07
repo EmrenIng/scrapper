@@ -1,0 +1,7 @@
+{{#each save}}
+ <h4>{{this.title}}</h4>
+        <p> {{this.summary}}</p>
+            <a href={{this.link}} target="_blank">{{this.link}}</a>
+            <br><br>
+            <button type="button" class="delete-data" data-id={{this._id}}>Delete</button>
+{{/each}}
